@@ -18,6 +18,7 @@
     "node": ">=20.9.0 <21.0.0"
   },
   "files": [
+    "./dist/index.d.ts",
     "./dist/index.js"
   ],
   "main": "./dist/index.js",
@@ -35,5 +36,5 @@
     "prepare": "lefthook install",
     "prepublishOnly": "npm run clean && npm run build"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

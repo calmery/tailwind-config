@@ -3,6 +3,7 @@
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "baseUrl": "./src/",
+    "declaration": true,
     "exactOptionalPropertyTypes": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
