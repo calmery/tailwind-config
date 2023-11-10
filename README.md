@@ -12,14 +12,20 @@ $ npm i -D @calmery/tailwind-config
 ## Usage
 
 ```js
+// tailwind.config.js
+
+const config = require("@calmery/tailwind-config");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  ...require("@calmery/tailwind-config"),
+  ...config,
   content: ["./src/**/*.{ts,tsx}"],
 };
 ```
 
 ```ts
+// tailwind.config.ts
+
 import config from "@calmery/tailwind-config";
 import type { Config } from "tailwindcss";
 
