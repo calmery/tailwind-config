@@ -25,8 +25,7 @@
     "build": "tsc",
     "lint": "run-p --continue-on-error lint:*",
     "lint:eslint": "eslint --ext .js,.ts .",
-    "lint:prettier": "prettier --check .",
-    "postinstall": "lefthook install"
+    "lint:prettier": "prettier --check ."
   },
   "version": "1.0.0"
 }
