@@ -1,3 +1,6 @@
 {
-  "extends": "@calmery/eslint-config"
+  "extends": "@calmery/eslint-config",
+  "rules": {
+    "import/namespace": "off"
+  }
 }
