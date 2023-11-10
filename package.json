@@ -1,4 +1,8 @@
 {
+  "bugs": {
+    "url": "https://github.com/calmery/tailwind-config/issues"
+  },
+  "description": "Tailwind CSS configuration",
   "devDependencies": {
     "@calmery/eslint-config": "1.0.0",
     "@calmery/tsconfig": "1.0.0",
@@ -23,11 +27,20 @@
     "./dist/index.d.ts",
     "./dist/index.js"
   ],
+  "homepage": "https://github.com/calmery/tailwind-config#readme",
+  "keywords": [
+    "tailwindcss"
+  ],
+  "license": "MIT",
   "main": "./dist/index.js",
   "name": "@calmery/tailwind-config",
   "packageManager": "npm@10.1.0",
   "peerDependencies": {
     "tailwindcss": "^3.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calmery/tailwind-config.git"
   },
   "scripts": {
     "build": "tsc",
