@@ -21,7 +21,7 @@
     "typescript": "5.2.2"
   },
   "engines": {
-    "node": ">=20.9.0 <21.0.0"
+    "node": ">=18.0.0"
   },
   "files": [
     "./dist/index.d.ts",
@@ -34,7 +34,7 @@
   "license": "MIT",
   "main": "./dist/index.js",
   "name": "@calmery/tailwind-config",
-  "packageManager": "npm@10.1.0",
+  "packageManager": "npm@10.2.3",
   "peerDependencies": {
     "tailwindcss": "^3.3.5"
   },
